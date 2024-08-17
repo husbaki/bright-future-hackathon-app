@@ -24,8 +24,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _QuickStarterHomeState extends State<HomePage> {
-  String fullName = 'Elisabetta Milesi';
-  String username = 'Elisabetta_Milzi88';
+  String fullName = 'No Name';
+  String username = 'No Username';
 
   Future<void> _launchURL(String url) async {
     if (await canLaunch(url)) {
